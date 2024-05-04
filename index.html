@@ -1,0 +1,90 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>To-Do-List</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+        <section class="container">
+
+
+            <header>
+                <nav class="navbar">
+                    <img src="./images/logo_big.png" alt="" class="header-img">
+                    <ul class="header-list">
+                        <li class="header-icon"><a href="">Home</a></li>
+                        <li class="header-icon"><a href="">About</a></li>
+                        <li class="header-icon"><a href="">Projects</a></li>
+                        <li class="header-icon"><a href="">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <main>
+                <section class="entering-sec">
+                    <h1>What's Your Plan To Do</h1>
+                    <div class="input_sec">
+                        <input type="text" name="" id="" class="search_icon search_icon_1" placeholder="Enter your task">
+                        <butt on class="search_icon search_icon_2">ADD</button>
+                    </div>
+                </section>
+
+                <section class="second_level">
+                    <div class="second_level_item second_level_left">
+                    <h1 class="tasks_head">Tasks</h1>
+
+                        <div class="items_left">
+                            <span>1. </span>
+                            <p>Task 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt veritatis magnam
+                                ipsam modi nihil, quos dolore ad reprehenderit rerum tenetur!</p>
+                            <div class="itmes-left-img">
+                                <img src="./images/right.png" alt="" height="25px" class="rights" onclick="completion()">
+                                <img src="./images/wrong.png" alt="" height="25px" class="wrongs" >
+                                <img src="./images/delete.png" alt="" height="25px" class="deletes" >
+                            </div>
+                        </div>
+                    
+
+
+                    </div>
+                    <div class="second_level_item second_level_right">
+                        <div class="completed processess">
+                            <h2>Completed</h2>
+                            <div class="completed_items">
+                                
+                                <h3>target2 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, nihil!
+                                </h3>
+
+                            </div>
+                        </div>
+                        <div class="pending processess">
+                            <h2>Rejected</h2>
+                            <div class="rejected_items">
+
+                                <h3>target2 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, nihil!
+                                </h3>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+            </main>
+
+
+        </section>
+
+
+
+
+
+
+        <script src="script.js"></script>
+    </body>
+
+    </html>
